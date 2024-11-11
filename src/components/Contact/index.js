@@ -10,6 +10,7 @@ const Contact = () => {
       <div>
         <a href={contact.links.facebook}>Facebook</a>
         <a href={contact.links.twitter}>Twitter</a>
+        <a href={contact.links.Github}>Github</a>
       </div>
     </section>
   );
