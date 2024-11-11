@@ -9,9 +9,10 @@ const Contact = () => {
       <p>Phone: {contact.phone}</p>
       <div>
         <a href={contact.links.facebook}>Facebook</a>
-        <a href={contact.links.twitter}>Twitter</a>
-        <a href={contact.links.Github}>Github</a>
       </div>
+      <div><a href={contact.links.twitter}>Twitter</a>
+      </div>
+      <div><a href={contact.links.Github}>Github</a></div>
     </section>
   );
 };

@@ -8,6 +8,7 @@ const ProjectDetail = ({ match }) => {
       <section>
         <h2>{project.title}</h2>
         <p>{project.description}</p>
+        <p>{project.use}</p>
       </section>
     );
   };

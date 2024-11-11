@@ -9,6 +9,7 @@ const Projects = () => {
         <div key={index}>
           <h3>{project.title}</h3>
           <p>{project.description}</p>
+          <p>{project.use}</p>
         </div>
       ))}
     </section>

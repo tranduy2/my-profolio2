@@ -11,11 +11,11 @@ export const skills = [
 ];
 
 export const experience = [
-  { position: 'Intern', company: 'Một công ty', duration: '09/2023 - 10/2023', description: 'Tham gia phát triển...' }
+  { position: 'Intern', company: 'DevPlus', duration: '14/10/2024 - Now', description: 'Thực tập sinh' }
 ];
 
 export const projects = [
-  { id: '1', title: 'Quản lý sách', description: 'Phát triển hệ thống...' }
+  { id: '1', title: 'Tạo chatbot', description: 'Tham gia phát triển profile UI', use: 'Phần mềm: HTML, Javascript, CSS' }
 ];
 
 export const contact = {
