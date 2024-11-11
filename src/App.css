@@ -1,0 +1,80 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+nav {
+  background-color: #333;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 2rem;
+  margin: 1rem auto;
+  max-width: 800px;
+  background-color: #282828;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #61dafb;
+  border-bottom: 2px solid #61dafb;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: #aaa;
+}
+
+ul {
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+  padding: 0.3rem 0;
+}
+
+a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.avatar {
+  display: block;
+  margin: 0 auto 1rem;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
